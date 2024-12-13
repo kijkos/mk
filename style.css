@@ -1,0 +1,522 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    color: #fff
+}
+
+.header_logo {
+    max-width: 208px;
+    max-height: 95px;
+    margin-left: 5px;
+    margin-top: 20px
+}
+
+.header_links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 35px;
+    margin-top: -80px;
+    padding-right: 26px;
+    font-size: 18px;
+    text-align: center
+}
+
+.reg, .signin {
+    background: #5d6afb;
+    border-radius: 8px;
+    text-decoration: none;
+    padding: 15px 30px;
+    line-height: 172%;
+    border: 2px solid transparent;
+    color: #fff;
+    border-color: #5926ea;
+    transition: all .2s linear
+}
+
+.signin {
+    width: 5%
+}
+
+.reg {
+    width: 9%;
+    font-size: 18px
+}
+
+.header_container {
+    position: relative;
+    background-repeat: no-repeat;
+    height: 166%;
+    background-image: url(https://ramiltanker.github.io/mykorea/static/media/header-nav.2ee4eb8b.png);
+    background-size: 100% 100%
+}
+
+.header_btn {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    width: 238px;
+    height: 68px;
+    background: #5926ea;
+    border: 2px solid transparent;
+    border-radius: 34px;
+    border-color: #5926ea;
+    color: #fff;
+    transition: all .2s linear;
+    margin-right: 3px;
+    margin-top: 280px;
+    z-index: 1
+}
+
+.header_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px
+}
+
+.header_form {
+    min-height: 1500px;
+    background-image: url(https://ramiltanker.github.io/mykorea/static/media/header-form.90b234bf.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display: block;
+    margin-left: 285px;
+    margin-top: -790px
+}
+
+.laptop_form {
+    position: relative;
+    top: 405px;
+    left: 535px;
+    height: 650px;
+    width: 710px;
+    background: rgba(89,38,234,.8);
+    border: 1px solid #000;
+    box-sizing: border-box;
+    border-radius: 85px
+}
+
+.input_name, .input_number {
+    background-size: 27px 27px;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 80px;
+    margin-left: 40px;
+    border-radius: 13px;
+    background-position: 50px;
+    border: 0;
+    outline: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    align-items: center;
+    padding-left: 85px;
+    font-weight: 400;
+    font-size: 25px
+}
+
+.input_name {
+    background-image: url(https://ramiltanker.github.io/mykorea/static/media/input_name-icon.eb9797ad.svg);
+    box-sizing: border-box;
+    font-family: Montserrat;
+    font-style: normal
+}
+
+.input_number {
+    background-image: url(https://ramiltanker.github.io/mykorea/static/media/input_number-icon.8f2d080d.svg);
+    margin-top: 30px
+}
+
+.get_btn, .input_email, .input_number {
+    box-sizing: border-box;
+    font-family: Montserrat;
+    font-style: normal
+}
+
+.input_email {
+    background-size: 27px 27px;
+    background-image: url(https://ramiltanker.github.io/mykorea/static/media/input_email-icon.8a54dc33.svg);
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 80px;
+    margin-left: 40px;
+    border-radius: 13px;
+    background-position: 50px;
+    border: 0;
+    outline: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    align-items: center;
+    margin-top: 30px;
+    padding-left: 85px;
+    font-weight: 400;
+    font-size: 25px
+}
+
+.get_btn {
+    max-width: 605px;
+    width: 100%;
+    height: 85px;
+    background: #d43355;
+    border: 2px solid #000;
+    border-radius: 48.5px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 133%;
+    text-align: center;
+    color: #fff;
+    margin: 25px 40px 30px;
+    border-color: #d43355;
+    transition: all .2s linear
+}
+
+.ed_korea {
+    margin: 100px 0 0;
+    padding-left: 105px;
+    font-size: 53px
+}
+
+.consultation {
+    width: 90%;
+    margin-right: 0;
+    font-size: 40px;
+    text-align: center
+}
+
+.ed_advantages, .ed_concerns {
+    display: flex;
+    flex-direction: column
+}
+
+.ed_advantages {
+    width: 1380px;
+    height: 1285px;
+    margin: 0 0 45px;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://ramiltanker.github.io/mykorea/static/media/Ellipse%202.2a0187cd.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%
+}
+
+.ed_concerns {
+    width: 630px;
+    font-weight: 500;
+    line-height: 1.15;
+    align-items: flex-start;
+    color: #000;
+    margin: -45px 0 0 70px
+}
+
+.concerns_subtitle {
+    font-size: 45px;
+    line-height: 152%
+}
+
+.ed_entrance {
+    width: 100%;
+    height: 1400px;
+    background-image: url(https://ramiltanker.github.io/mykorea/static/media/Close%20up%20hand%20taking%20notes.1764b706.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: #000
+}
+
+.concerns_image {
+    width: 695px;
+    height: 1860px;
+    position: absolute;
+    right: 0;
+    margin-top: 430px
+}
+
+.concerns_text {
+    font-size: 26px;
+    width: 680px;
+    line-height: 152%;
+    margin-top: 5px
+}
+
+.concerns_caption {
+    width: 400px;
+    height: 80px;
+    padding-top: 20px;
+    background-image: url(https://s.iimg.su/s/07/EApTAJaU7QaIQJ13kYjXjnbecqSJxePv4cDMAhwJ.png);
+    background-size: 100% 100%;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 2px
+}
+
+.ed_text, .ed_title {
+    width: 1100px;
+    font-size: 40px;
+    line-height: 152%;
+    margin: 0 0 45px
+}
+
+.ed_text {
+    width: 80%;
+    font-family: Montserrat;
+    font-style: normal;
+    color: #fff;
+    text-align: left;
+    font-weight: 500;
+    font-size: 20px
+}
+
+.entrance_subtitle {
+    font-size: 45px;
+    padding-left: 15px;
+    width: 85%;
+    line-height: 152%;
+    margin: 0 0 40px 50px;
+    padding-top: 180px
+}
+
+.entrance_text {
+    font-size: 26px;
+    margin-left: 65px;
+    font-weight: 500;
+    width: 85%
+}
+
+.entrance_p_circle {
+    width: 700px;
+    height: 700px;
+    background-image: url(https://ramiltanker.github.io/mykorea/static/media/Ellipse_blur.414c853b.png);
+    background-size: 100% 100%;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    background-repeat: no-repeat;
+    align-items: center;
+    margin-left: 175px;
+    margin-top: 40px
+}
+
+.entrance_li, .entrance_li2 {
+    width: 485px;
+    text-align: center;
+    align-items: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 152%;
+    color: #fff;
+    padding: 0;
+    margin: 0 65px 25px 0
+}
+
+.entrance_li2 {
+    width: 410px;
+    margin: 0 65px 35px 0
+}
+
+.entrance_list {
+    list-style-type: decimal;
+    list-style-position: inside
+}
+
+.entrance_container {
+    position: relative;
+    top: 20px
+}
+
+.entrance_p_ {
+    width: 239px;
+    font-size: 23px;
+    color: #fff;
+    margin: 0 0 20px;
+    text-align: center;
+    line-height: 152%
+}
+
+.entrance_r_circle {
+    width: 492px;
+    height: 505px;
+    position: relative;
+    bottom: 610px;
+    left: 780px;
+    background: url(https://s.iimg.su/s/07/CjBYIIasnFdUMrcsbDXy3teGhsJPqgEqzsMTRuCB.png);
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.entrance_text3 {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 152%;
+    color: #000;
+    display: flex;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 50px
+}
+
+.ed_box {
+    margin-top: 100px
+}
+
+.cost_title {
+    font-size: 45px
+}
+
+.ed_cost {
+    margin: 50px 50px 45px;
+    line-height: 152%;
+    color: #000
+}
+
+.study_cost {
+    margin-top: 60px;
+    font-size: 25px
+}
+
+.cost_text {
+    margin: 45px 0 0;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 152%
+}
+
+.entrance_r_subtitle {
+    width: 239px;
+    font-size: 23px;
+    color: #fff;
+    text-align: center;
+    line-height: 152%;
+    margin: 0 0 20px 115px
+}
+
+.table_cost, td {
+    color: #000;
+    border: 2px solid #54647b
+}
+
+td, th {
+    width: auto;
+    padding: 20px;
+    font-size: 25px
+}
+
+td {
+    height: 120px;
+    font-weight: 500
+}
+
+th {
+    border: 2px solid #000;
+    height: 110px;
+    color: #000
+}
+
+.table_cost {
+    margin: 100px 50px
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #5926ea
+}
+
+.footer_title {
+    align-items: flex-start
+}
+
+.footer_subtitle, .footer_title {
+    font-size: 25px;
+    line-height: 152%
+}
+
+.footer_image {
+    margin-right: 15px;
+    object-fit: contain;
+    float: left
+}
+
+.footer_header {
+    font-weight: 500;
+    font-size: 20px
+}
+
+.footer_socials, .socials_list {
+    height: 50px
+}
+
+.footer_socials {
+    margin-left: 50px;
+    line-height: 152%
+}
+
+.contacts_list, .socials_list {
+    list-style-type: none;
+    display: flex
+}
+
+.socials_list {
+    align-items: flex-end;
+    grid-gap: 19px;
+    gap: 19px;
+    margin-left: 3px;
+    padding: 0;
+    margin-top: 195px
+}
+
+.contacts_list {
+    grid-gap: 25px;
+    gap: 25px;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 40px 0 0;
+    align-items: flex-start
+}
+
+.footer_shell {
+    width: 100%
+}
+
+.contacts_li {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 152%
+}
+
+.footer_contacts {
+    float: right;
+    display: flex;
+    flex-direction: column
+}
+
+.email_image {
+    margin-right: 15px;
+    object-fit: contain;
+    height: 30px;
+    width: 30px
+}
+
+.email_title {
+    font-size: 25px
+}
+
+.email {
+    font-weight: 500;
+    font-size: 20px;
+    display: inline-block
+}
+
+.footer_email {
+    display: flex;
+    align-items: center
+}
